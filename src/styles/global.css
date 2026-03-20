@@ -1,2 +1,38 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography"
+@plugin "@tailwindcss/typography";
+
+:root {
+  --color-bg:     #f1f5f9; /* slate-100 */
+  --color-body:   #475569; /* slate-600 */
+  --color-strong: #0f172a; /* slate-950 */
+  --color-h2:     #1e1b4b; /* indigo-950 — section titles */
+  --color-h3:     #4338ca; /* indigo-700 — job / project titles */
+  --color-h4:     #818cf8; /* indigo-400 — sub-details */
+  --color-link:   #4f46e5; /* indigo-600 */
+  --color-bullet: #6366f1; /* indigo-500 */
+  --color-border: #cbd5e1; /* slate-300 */
+  --color-quote:  #94a3b8; /* slate-400 */
+  --color-code:   #be185d; /* pink-700 */
+  --color-code-bg:#fdf2f8; /* pink-50 */
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-body);
+}
+
+.prose {
+  --tw-prose-body:       var(--color-body);
+  --tw-prose-bold:       var(--color-strong);
+  --tw-prose-links:      var(--color-link);
+  --tw-prose-bullets:    var(--color-bullet);
+  --tw-prose-counters:   var(--color-bullet);
+  --tw-prose-hr:         var(--color-border);
+  --tw-prose-quotes:     var(--color-quote);
+  --tw-prose-quote-borders: var(--color-border);
+  --tw-prose-code:       var(--color-code);
+}
+
+.prose h2 { color: var(--color-h2); }
+.prose h3 { color: var(--color-h3); }
+.prose h4 { color: var(--color-h4); }
