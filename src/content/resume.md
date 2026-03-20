@@ -124,4 +124,44 @@ tokenized assets:
 
 ## Working Experiences
 
+> My past experiences that have contributed to build the builder I am today
+
+Experiences described below are *not related to the blockchain expertise* I can
+provide right now.
+
+However, they have *significantly contributed* to make me proficient in a very
+large set of my problem solving skills.
+
+### Technical Lead - Ringover
+
+Ringover offers a **SaaS solution** to manage exchanges with customers and
+prospects more efficiently. The solutions offered are innovative and are based
+on several ambitious technological foundations such as automated tools and
+customizable multi-channel prospecting, an advanced IP telephony offering with
+multi-channel communication, a suite of tools based on AI-assisted
+conversational analysis.
+
+Ringover has more than 200 employees in 5 offices in France and abroad (US,
+Spain, etc.). More than 10,000 customers already trust Ringover around the
+world. At the end of 2021, Ringover raised €15 million.
+
+My role in this organization is to **support and participate** in the tasks of a
+team of **backend developers**, mainly around **C/C++ stacks and python**.
+
+Ringover has its own server infrastructure as well, the management aspects of
+systems are also omnipresent.
+
+Context of the mission:
+
+- **C/C++** and **python** back-end development
+- Implementation of components related to **RFCs in the telephony field** (SIP,
+  RTP)
+- **Deployments and Observability** on Systems Deployed in Production Technologies
+- **docker**, docker compose
+- Proxmox
+- **CI/CD** with bitbucket pipelines
+- **OpenSource contributions** (Freeswitch; Kamailio)
+- TDD
+- OpenTelemetry
+
 ---
