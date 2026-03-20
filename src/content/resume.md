@@ -380,4 +380,25 @@ software package) and concerning all aspects related to this profession.
 - WCF
 - Delphi 7
 
+### IT Specialist - French Air Force
+
+> From April 2004 to February 2011
+
+My career in the air force as an IT specialist has given me a great deal of
+computer culture and the desire to learn more and more.
+
+I have held various positions there throughout my 7 years of service.
+
+*Mission context:*
+
+- Network administration with the commissioning, maintenance and evolution of an
+  entire infrastructure of Cisco and Enterasys switches on site and also in
+  external theaters of operations;
+- System administration on Linux and Windows
+  systems concerning services around the web, user management, DNS and
+  specialized services (security, meteorology...)
+- Development allowing the evolution and extension of existing software
+  solutions related to the security of network equipment within the Directorate
+  of Military Intelligence (DRM)
+
 ---
