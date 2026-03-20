@@ -16,6 +16,21 @@
   --color-code-bg:#fdf2f8; /* pink-50 */
 }
 
+[data-theme="dark"] {
+  --color-bg:     #0f172a; /* slate-950 */
+  --color-body:   #94a3b8; /* slate-400 */
+  --color-strong: #f1f5f9; /* slate-100 */
+  --color-h2:     #c7d2fe; /* indigo-200 */
+  --color-h3:     #a5b4fc; /* indigo-300 */
+  --color-h4:     #6366f1; /* indigo-500 */
+  --color-link:   #a5b4fc; /* indigo-300 */
+  --color-bullet: #818cf8; /* indigo-400 */
+  --color-border: #334155; /* slate-700 */
+  --color-quote:  #64748b; /* slate-500 */
+  --color-code:   #f472b6; /* pink-400 */
+  --color-code-bg:#1e1b4b; /* indigo-950 */
+}
+
 body {
   background-color: var(--color-bg);
   color: var(--color-body);
