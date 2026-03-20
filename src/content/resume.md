@@ -27,9 +27,6 @@ I work on full time propositions.
 This framework is an attempt to **answer real challenges** companies face with
 tokenized assets:
 
-> How to **prove eligibility** on-chain **without revealing** why the user is
-> eligible.
-
 - Designed a **zero-knowledge** eligibility proof system for Real-World Asset
   (RWA) protocols, enabling on-chain **compliance verification without
   disclosing** identity or private compliance data
