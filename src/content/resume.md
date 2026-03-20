@@ -205,4 +205,38 @@ Engineering Design Technology
 - Solace
 - MongoDB
 
+### AWS Solution architect
+
+> From September 2022 to April 2023
+
+Terrace Metrics (<https://www.terracemetrics.org/>) is a leading behavioral
+management company that is seen as a key asset for maximizing performance at
+both the individual and organizational levels.
+
+The main users of TerraceMetrics are schools and companies concerned with
+solving the challenges associated with the study of behavioral science.
+
+TerraceMetrics' partners include prestigious institutions such as Goodwall
+(<http://goodwall.io/>), Cincinnati Public Schools and GrantUsHope
+(<https://grantushope.org/>).
+
+During this mission, I was initially asked to contribute to the stabilization
+of the existing platform while implementing critical features for its users.
+
+Secondly, I was able to contribute to a strategic and progressive migration of
+the platform by proposing and facilitating various discovery workshops and
+relying on the AWS ecosystem to achieve this.
+
+Context of the mission:
+
+- event storming workshops, impact mapping, example mapping and story mapping Technologies:
+- AWS serverless ecosystem
+- AWS Lambda
+- AWS CloudFormation DynamoDB
+- NodeJs Javascript Typescript
+- AWS EC2
+- React
+- Docker
+- PostgreSQL
+
 ---
