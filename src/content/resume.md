@@ -13,6 +13,8 @@ protocols.
 specialized in low-level smart contracts for EVM-based blockchains (Solidity /
 Yul) and Zero-Knowledge systems (Noir / Barretenberg).
 
+I work on full time propositions.
+
 ---
 
 ## Open source contributions
