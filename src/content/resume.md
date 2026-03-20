@@ -227,7 +227,7 @@ Secondly, I was able to contribute to a strategic and progressive migration of
 the platform by proposing and facilitating various discovery workshops and
 relying on the AWS ecosystem to achieve this.
 
-Context of the mission:
+*Context of the mission:*
 
 - event storming workshops, impact mapping, example mapping and story mapping Technologies:
 - AWS serverless ecosystem
@@ -238,5 +238,36 @@ Context of the mission:
 - React
 - Docker
 - PostgreSQL
+
+### Senior Software Developer - Agicap
+
+> From December 2021 to August 2022
+
+Agicap is one of the largest European leaders in cash management. This company
+counts among its customers more than 6000 European SMEs who manage their
+activity through cash flow with their solution.
+
+During this mission, I contributed to the creation of the payment product line
+which allowed Agicap to increase their conversion rate by facilitating the
+payment process for its customers.
+
+I have had the chance to work with multidisciplinary and very mature teams on
+topics such as Domain Driven Design and Test Driven Development. Thanks to
+these methodologies, Agicap has been able to continuously deliver a product in
+full evolution with a zero bug rate.
+
+*Context of the mission:*
+
+- Event Storming
+- Example Mapping
+- Story Mapping
+- TDD
+- DDD
+- BDD
+- Mob programming
+- dotnet 6-7
+- C#
+- EFCore
+- Angular
 
 ---
