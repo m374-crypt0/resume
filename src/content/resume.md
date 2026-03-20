@@ -205,7 +205,7 @@ Engineering Design Technology
 - Solace
 - MongoDB
 
-### AWS Solution architect
+### AWS Solution architect - TerraceMetrics
 
 > From September 2022 to April 2023
 
@@ -270,7 +270,7 @@ full evolution with a zero bug rate.
 - EFCore
 - Angular
 
-### Dotnet C# tech Coach
+### Dotnet C# tech Coach - CDiscount
 
 > From August 2020 to December 2021
 
@@ -311,7 +311,7 @@ product design, including:
 - C#
 - EFCore
 
-### Senior Software Developer
+### Senior Software Developer - SiemensPLM, Galaxy Semiconductor
 
 > From June 2015 to August 2020
 
@@ -343,5 +343,23 @@ force (automotive, aerospace, etc.)
 - [Pat-Man](https://www.galaxysemi.com/patman)
 - [Examinator-Pro](https://www.galaxysemi.com/examinatorpro)
 - [Yield-Man](https://www.galaxysemi.com/yieldman)
+
+### Software Engineer - Atos Integration
+
+> From October 2012 to June 2015
+
+Atos Integration is the ENS subsidiary of the Atos Group.
+I work there as a designer of software solutions for end customers.
+The technical areas concerned are above all the use of Microsoft technologies
+based on the .Net Framework.
+
+If necessary, I intervene from time to time with potential customers in order
+to audit or advise them with regard to an existing solution that they would
+like to develop.
+
+*Job context:*
+
+- Web (client/server) with ASP and C#
+- Thick client with C# (WPF and Winforms)
 
 ---
