@@ -402,3 +402,9 @@ I have held various positions there throughout my 7 years of service.
   of Military Intelligence (DRM)
 
 ---
+
+## Articles & Talks
+
+- [Understanding Solidity Transparent Upgradeable Proxy Pattern - A Practical Guide](https://dev.to/sebastien_levy_233585b9a3/understanding-solidity-transparent-upgradeable-proxy-pattern-a-practical-guide-1abm)
+- [How to deploy you NFT on Sepolia - Simple and 100% under control](https://dev.to/sebastien_levy_233585b9a3/how-to-deploy-you-nft-on-sepolia-simple-and-100-under-control-245d)
+- [Deep Dive in Transparent Proxy Code](https://dev.to/sebastien_levy_233585b9a3/deep-dive-in-transparent-proxy-code-2o45)
