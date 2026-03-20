@@ -408,3 +408,52 @@ I have held various positions there throughout my 7 years of service.
 - [Understanding Solidity Transparent Upgradeable Proxy Pattern - A Practical Guide](https://dev.to/sebastien_levy_233585b9a3/understanding-solidity-transparent-upgradeable-proxy-pattern-a-practical-guide-1abm)
 - [How to deploy you NFT on Sepolia - Simple and 100% under control](https://dev.to/sebastien_levy_233585b9a3/how-to-deploy-you-nft-on-sepolia-simple-and-100-under-control-245d)
 - [Deep Dive in Transparent Proxy Code](https://dev.to/sebastien_levy_233585b9a3/deep-dive-in-transparent-proxy-code-2o45)
+
+---
+
+## Education
+
+### Bachelor in industrial IT
+
+> From 2001 to 2003
+> Lycée Pierre Méchain - Laon - France
+
+---
+
+## Skills
+
+### Blockchain
+
+Solidity - EVM - Foundry - Hardhat - OpenZeppelin - ZKP - Noir - Barretenberg -
+Viem
+
+### General IT
+
+Typescript/Javascript - Bun.js/NodeJs - C++ - Docker - CI/CD
+
+### Finance
+
+Knowledge on financial products and concepts (DeFi and TradFi)
+
+---
+
+## Contact details
+
+**Mail**: <m374-crypt0@pm.me>
+
+**Location**: France
+
+**GitHub**: [m374-crypt0](https://github.com/m374-crypt0)
+
+**LinkedIn**: [Sebastien Levy](https://www.linkedin.com/in/sebastien-levy-1a6148b2/)
+
+**X**: @m374crypt0
+
+**Telegram**: @M374crypto
+
+---
+
+## Languages
+
+- French: Native
+- English: Fluent
