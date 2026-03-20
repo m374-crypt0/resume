@@ -134,6 +134,8 @@ large set of my problem solving skills.
 
 ### Technical Lead - Ringover
 
+> From September 2023 to March 2025
+
 Ringover offers a **SaaS solution** to manage exchanges with customers and
 prospects more efficiently. The solutions offered are innovative and are based
 on several ambitious technological foundations such as automated tools and
@@ -151,7 +153,7 @@ team of **backend developers**, mainly around **C/C++ stacks and python**.
 Ringover has its own server infrastructure as well, the management aspects of
 systems are also omnipresent.
 
-Context of the mission:
+*Context of the mission:*
 
 - **C/C++** and **python** back-end development
 - Implementation of components related to **RFCs in the telephony field** (SIP,
@@ -163,5 +165,44 @@ Context of the mission:
 - **OpenSource contributions** (Freeswitch; Kamailio)
 - TDD
 - OpenTelemetry
+
+### Solution Architect - CMA-CGM
+
+> From March 2023 to August 2023
+
+**CMA-CGM** is a global player in maritime, land, air and logistics solutions.
+
+In 2022, this company made a profit of nearly €25 billion, most of which was
+reinvested in the group's activities, in particular on concrete commitments for
+the energy transition and the environment (-50% CO2 emissions per container
+since 2008).
+
+During my mission at CMA-CGM as a solution architect, I was able to contribute
+to the development of the design around one of their flagship products: a
+digitalized booking solution.
+
+This solution allows CMA-CGM to achieve between 40% and 50% of its turnover.
+
+My contribution to this great project has allowed me to work on these different
+aspects:
+
+- Collect, discuss and understand the different needs expressed by business
+  stakeholders regarding the expected functionalities of this platform.
+- Participate in and lead various scoping workshops around the development of
+  'High-Level' solutions allowing the creation of design models for application
+  architects and development teams.
+- Participate in the drafting of 'Low Level' design models to specify the
+  technical needs for the implementation of the chosen solution.
+
+*Context of the mission:*
+
+Scoping Negotiation Solution Design
+Engineering Design Technology
+
+- C#
+- AWS
+- Kafka
+- Solace
+- MongoDB
 
 ---
