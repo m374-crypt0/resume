@@ -270,4 +270,45 @@ full evolution with a zero bug rate.
 - EFCore
 - Angular
 
+### Dotnet C# tech Coach
+
+> From August 2020 to December 2021
+
+Cdiscount is one of the largest players in French e-commerce. This large group
+has nearly 2000 employees and achieved a turnover of more than 2 billion euros
+in 2021.
+
+During this mission, I accompanied several product teams responsible for the
+launch of Octopia, a BtoB SaaS marketplace solution. Whether it is for the
+field of logistics, fulfillment, catalog or customer repositories, my
+contribution has enabled the teams by gaining maturity on different aspects of
+product design, including:
+
+- The construction of the vision and the pre-design phases through discovery
+  workshops such as event storming, example mapping, impact mapping and story
+  mapping with various actors (product teams and tech teams). This has had the
+  benefit of strengthening the understanding of the vision, aligning
+  implementations with needs while reducing the risk of communication silos,
+  characteristic of large groups with a high hierarchy.
+- real technical support for teams on their own delivery challenges, by
+  applying good development practices, a logical continuation of the previous
+  workshops (tactical DDD, BDD, TDD, Clean Code, Clean Architecture)
+- Training of teams when necessary, particularly on Clean Code, TDD,
+  refactoring and Clean Architecture topics. These trainings took place over
+  several days and included practical exercises with mob programming.
+
+*Context of the mission:*
+
+- Event Storming
+- Example Mapping
+- Story Mapping
+- Impact Mapping
+- TDD
+- DDD
+- BDD
+- Mob programming
+- dotnet 5-6
+- C#
+- EFCore
+
 ---
