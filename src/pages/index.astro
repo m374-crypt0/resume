@@ -9,5 +9,7 @@ const {title, author: name} = resume.frontmatter
 
 <ResumeLayout {title}>
   <ResumeHeader {name} {title} />
-  <resume.Content />
+  <div class="prose">
+    <resume.Content />
+  </div>
 </ResumeLayout>
