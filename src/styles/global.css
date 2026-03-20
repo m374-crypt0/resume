@@ -38,6 +38,29 @@ body {
 .prose h3 { color: var(--color-h3); }
 .prose h4 { color: var(--color-h4); }
 
+@media print {
+  .no-print { display: none; }
+
+  /* force light theme regardless of active theme */
+  :root {
+    --color-bg:     #ffffff;
+    --color-body:   #334155;
+    --color-strong: #0f172a;
+    --color-h2:     #1e1b4b;
+    --color-h3:     #4338ca;
+    --color-h4:     #818cf8;
+    --color-border: #94a3b8;
+  }
+
+  /* keep headings anchored to their content */
+  .prose h2,
+  .prose h3,
+  .prose h4 { break-after: avoid; }
+
+  /* try to keep short job/project blocks together */
+  .prose h3 + * { break-before: avoid; }
+}
+
 .prose a[href*="linkedin.com"]::before {
   content: '';
   display: inline-block;
