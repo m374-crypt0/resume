@@ -362,4 +362,22 @@ like to develop.
 - Web (client/server) with ASP and C#
 - Thick client with C# (WPF and Winforms)
 
+### Software Developer - Isagri
+
+> From February 2011 to October 2012
+
+Publisher of software packages for agricultural professions and accounting.
+
+In this company, I was a .Net development engineer.
+
+The project I was working on was aimed at livestock farmers (herd management
+software package) and concerning all aspects related to this profession.
+
+*job context:*
+
+- Microsoft's dotnet framework
+- WPF
+- WCF
+- Delphi 7
+
 ---
