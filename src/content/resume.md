@@ -87,6 +87,39 @@ tokenized assets:
 
 [Repository link](https://github.com/m374-crypt0/nifty)
 
+### dexterity
+
+> A decentralized exchange system inspired by **Uniswap V2**.
+
+- Built a **full-stack decentralized exchange** in Solidity 0.8.30 with an
+  automated market maker (AMM) implementing the **constant product formula
+  (x·y=k)** for token swaps, supporting exact-input and exact-output swap types
+- Designed a **liquidity pool architecture** using **XOR-based pool ID
+  derivation**, uint128 reserves for **gas efficiency**, and **geometric mean
+  (Babylonian square root)** for LP share calculation
+- **Integrated Uniswap V2** as a fallback router for unsupported token pairs,
+  with a **2 basis-point creator fee** collected on forwarded swaps
+- **Enforced security best practices**: checks-effects-interactions pattern,
+  OpenZeppelin SafeERC20, zero-address and overflow validation, and
+  reentrancy-safe state management
+- **Achieved continuous security assurance** via **Slither** static analysis
+  **in CI/CD (GitHub Actions)**, configured to block merges on any high-severity
+  vulnerability
+- **Wrote a comprehensive Foundry test suite** covering edge cases, invariant
+  violations, multi-holder scenarios, and **mainnet fork tests against real
+  Uniswap V2** USDC/WETH pools
+- **Configured code coverage reporting** with LCOV + Codecov integration and
+  **gas reporting** via forge test --gas-report
+- **Built a TypeScript/Express.js backend** using ethers.js v6 for **on-chain
+  event indexing and data aggregation**, and a Next.js/React frontend
+  (proof-of-concept) with Tailwind CSS v4
+- **Structured the project as a monorepo** (contracts + backend + frontend)
+  with a Makefile-driven build system supporting **local Anvil fork** deployment,
+  **Sepolia testnet** deployment with Etherscan verification, and watch-mode
+  development
+
+[Repository link](https://github.com/m374-crypt0/dexterity)
+
 ---
 
 ## Working Experiences
