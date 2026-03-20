@@ -311,4 +311,37 @@ product design, including:
 - C#
 - EFCore
 
+### Senior Software Developer
+
+> From June 2015 to August 2020
+
+Siemens PLM is a key player in the digital transformation of companies,
+enabling them to benefit from such transformations and to reveal themselves in
+relation to competing players.
+
+My mission at Siemens PLM took place more specifically within Galaxy
+Semiconductor and Mentor Graphics, a division of Siemens PLM. I have
+contributed to the maintenance and development of various products, in
+particular, a range of thick client type software for semiconductor test
+engineers. The purpose of these tools is to obtain on the one hand the best
+possible performance of the production lines of electronic components of all
+kinds (from the most basic micro-controller to the most advanced processors)
+while ensuring an optimal level of quality with regard to the standards in
+force (automotive, aerospace, etc.)
+
+*Job context:*
+
+- Desktop applications using C++ (03/11/14/17)
+- DBMS MySQL and MariaDB
+- .Net Core platform product development
+- Web based application using several Javascript backend (nodeJS)
+- Frontend frameworks (VueJS)
+- Docker and DigitalOcean cloud platform
+
+*Product links:*
+
+- [Pat-Man](https://www.galaxysemi.com/patman)
+- [Examinator-Pro](https://www.galaxysemi.com/examinatorpro)
+- [Yield-Man](https://www.galaxysemi.com/yieldman)
+
 ---
