@@ -1,8 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
+import ResumeHeader from '../components/ResumeHeader.astro'
+
 import * as resume from '../content/resume.md'
+
+const {title, author: name} = resume.frontmatter
 ---
 
-<BaseLayout title='Resume title'>
+<BaseLayout {title}>
+  <ResumeHeader {name} {title} />
   <resume.Content />
 </BaseLayout>
