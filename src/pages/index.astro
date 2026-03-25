@@ -1,13 +1,16 @@
 ---
 import ResumeLayout from '../layouts/ResumeLayout.astro'
 import ResumeHeader from '../components/ResumeHeader.astro'
+import TableOfContents from '../components/TableOfContents.astro'
 
 import * as resume from '../content/resume.md'
 
 const {title, author: name} = resume.frontmatter
+const headings = resume.getHeadings()
 ---
 
 <ResumeLayout {title}>
+  <TableOfContents {headings} />
   <ResumeHeader {name} {title} />
   <div class="prose prose-lg max-w-4xl mx-auto px-6">
     <resume.Content />
