@@ -14,6 +14,8 @@ I work on full time propositions.
 
 ---
 
+<div class="page-break"></div>
+
 ## Working Experiences
 
 ### **ZK-ASSETS**
@@ -56,6 +58,8 @@ tokenized assets:
 
 [Repository link](https://github.com/m374-crypt0/zk-assets)
 
+<div class="page-break"></div>
+
 ### C++ Technical Lead
 
 | Company | Period |
@@ -87,6 +91,8 @@ systems are also omnipresent.
 - **OpenSource contributions** (Freeswitch; Kamailio)
 - TDD
 - OpenTelemetry
+
+<div class="page-break"></div>
 
 ### Solution Architect
 
@@ -121,6 +127,8 @@ aspects:
 - Solace
 - MongoDB
 
+<div class="page-break"></div>
+
 ### AWS Solution architect
 
 | Company | Period |
@@ -153,6 +161,8 @@ relying on the AWS ecosystem to achieve this.
 - Docker
 - PostgreSQL
 
+<div class="page-break"></div>
+
 ### Dotnet Senior Software Developer
 
 | Company | Period |
@@ -184,6 +194,8 @@ full evolution with a zero bug rate.
 - EFCore
 - Angular
 
+<div class="page-break"></div>
+
 ### Dotnet C# tech Coach
 
 | Company | Period |
@@ -193,18 +205,14 @@ full evolution with a zero bug rate.
 Cdiscount is one of the largest players in French e-commerce.
 
 During this mission, I accompanied several product teams responsible for the
-launch of Octopia, a BtoB SaaS marketplace solution. Whether it is for the
-field of logistics, fulfillment, catalog or customer repositories, my
-contribution has enabled the teams by gaining maturity on different aspects of
-product design, including:
+launch of Octopia, a BtoB SaaS marketplace solution.My contribution has enabled
+the teams by gaining maturity on different aspects of product design,
+including:
 
-- The construction of the vision and the pre-design phases through discovery
+- Construction of the vision and the pre-design phases through discovery
   workshops such as event storming, example mapping, impact mapping and story
-  mapping with various actors (product teams and tech teams). This has had the
-  benefit of strengthening the understanding of the vision, aligning
-  implementations with needs while reducing the risk of communication silos,
-  characteristic of large groups with a high hierarchy.
-- real technical support for teams on their own delivery challenges, by
+  mapping with all stakeholders.
+- Real technical support for teams on their own delivery challenges, by
   applying good development practices, a logical continuation of the previous
   workshops (tactical DDD, BDD, TDD, Clean Code, Clean Architecture)
 - Training of teams when necessary, particularly on Clean Code, TDD,
@@ -224,6 +232,8 @@ product design, including:
 - dotnet 5-6
 - C#
 - EFCore
+
+<div class="page-break"></div>
 
 ### Backend Senior Software Developer
 
@@ -261,6 +271,8 @@ force (automotive, aerospace, etc.)
 - [Examinator-Pro](https://www.galaxysemi.com/examinatorpro)
 - [Yield-Man](https://www.galaxysemi.com/yieldman)
 
+<div class="page-break"></div>
+
 ### Fullstack Software Engineer
 
 | Company | Period |
@@ -279,6 +291,8 @@ like to develop.
 
 - Web (client/server) with ASP and C#
 - Thick client with C# (WPF and Winforms)
+
+<div class="page-break"></div>
 
 ### dotnet Software Developer
 
@@ -299,6 +313,8 @@ software package) and concerning all aspects related to this profession.
 - WPF
 - WCF
 - Delphi 7
+
+<div class="page-break"></div>
 
 ### IT Specialist
 
@@ -324,6 +340,8 @@ I have held various positions there throughout my 7 years of service.
   of Military Intelligence (DRM)
 
 ---
+
+<div class="page-break"></div>
 
 ## Personal projects
 
@@ -358,6 +376,8 @@ I have held various positions there throughout my 7 years of service.
   owner/global token arrays without external libraries
 
 [Repository link](https://github.com/m374-crypt0/nifty)
+
+<div class="page-break"></div>
 
 ### dexterity
 
@@ -394,6 +414,8 @@ I have held various positions there throughout my 7 years of service.
 
 ---
 
+<div class="page-break"></div>
+
 ## Articles & Talks
 
 - [Understanding Solidity Transparent Upgradeable Proxy Pattern - A Practical Guide](https://dev.to/sebastien_levy_233585b9a3/understanding-solidity-transparent-upgradeable-proxy-pattern-a-practical-guide-1abm)
@@ -422,11 +444,9 @@ Viem
 
 Typescript/Javascript - Bun.js/NodeJs - C++ - Docker - CI/CD
 
-### Finance
-
-Knowledge on financial products and concepts (DeFi and TradFi)
-
 ---
+
+<div class="page-break"></div>
 
 ## Contact details
 
