@@ -18,12 +18,14 @@ I work on full time propositions.
 
 ## Experiences
 
-### **ZK-ASSETS**
+### Protocol Engineer
 
-#### A **zero-knowledge** eligibility proof system for Real-World Asset (**RWA**) protocols
+| Company | Period |
+| --- | --- |
+| m374-crypt0 | From January 2026 to today |
 
-This framework is an attempt to **answer real challenges** companies face with
-tokenized assets:
+Actively working on a **zero-knowledge** eligibility proof system for
+Real-World Asset (**RWA**) protocols
 
 - Designed a **zero-knowledge** eligibility proof system for Real-World Asset
   (RWA) protocols, enabling on-chain **compliance verification without
