@@ -4,11 +4,11 @@ author: 'Sebastien Levy'
 ---
 ---
 
-## Who am I?
+## Profile
 
 15+ years in software engineering (C++/backend systems and others), now
-specialized in low-level smart contracts for EVM-based blockchains (Solidity /
-Yul) and Zero-Knowledge systems (Noir / Barretenberg).
+specialized in distributed systems and protocol build for EVM-based blockchains
+(Solidity / Yul) and Zero-Knowledge systems (Noir / Barretenberg).
 
 I work on full time propositions.
 
@@ -16,7 +16,7 @@ I work on full time propositions.
 
 <div class="page-break"></div>
 
-## Working Experiences
+## Experiences
 
 ### **ZK-ASSETS**
 
@@ -49,12 +49,9 @@ tokenized assets:
 - Wrote **full tests suites covering the full flow**: issuer commitment → local
   Anvil blockchain → customer proof generation → on-chain verification via viem
 
-*Key Technologies used:*
+*Stack:*
 
-- Foundry
-- Solidity
-- Noir
-- Barretenberg
+- Foundry · Solidity · Noir · Barretenberg · docker
 
 [Repository link](https://github.com/m374-crypt0/zk-assets)
 
@@ -66,31 +63,28 @@ tokenized assets:
 | --- | --- |
 | Ringover | From September 2023 to March 2025 |
 
-Ringover offers a **SaaS solution** to manage exchanges with customers and
-prospects more efficiently. The solutions offered are innovative and are based
-on several ambitious technological foundations such as automated tools and
-customizable multi-channel prospecting, an advanced IP telephony offering with
-multi-channel communication, a suite of tools based on AI-assisted
-conversational analysis.
+Technical lead on the **C/C++ and Python backend** of a cloud IP telephony
+platform, working directly on Ringover's internal forks of FreeSwitch and
+Kamailio.
 
-My role in this organization is to **support and participate** in the tasks of a
-team of **backend developers**, mainly around **C/C++ stacks and python**.
+- Implemented protocol-level components conforming to **SIP and RTP RFCs**
+  within the media and signaling stack
+- Modernized the codebase toward current C++ standards, reducing undefined
+  behavior surface and improving maintainability
+- Instrumented native C/C++ codebases with **OpenTelemetry** to expose
+  Real-time metrics and profiling data to the production observability stack
+  (Grafana, Loki, Kibana)
+- Engineered a **parallelized local Bitbucket Pipelines runner** for native
+  builds, significantly cutting CI build costs
+- Enforced **deterministic build and test environments** via Docker and Docker
+  Compose across the team
+- Provisioned and managed development infrastructure on **Proxmox**
+- Upstreamed fixes and additions back to **FreeSwitch and Kamailio**
+  open-source projects from Ringover's internal forks
 
-Ringover has its own server infrastructure as well, the management aspects of
-systems are also omnipresent.
+*Stack:*
 
-*Context of the mission:*
-
-- **C/C++** and **python** back-end development
-- Implementation of components related to **RFCs in the telephony field** (SIP,
-  RTP)
-- **Deployments and Observability** on Systems Deployed in Production Technologies
-- **docker**, docker compose
-- Proxmox
-- **CI/CD** with bitbucket pipelines
-- **OpenSource contributions** (Freeswitch; Kamailio)
-- TDD
-- OpenTelemetry
+- C++ · C · Python · SIP · RTP · OpenTelemetry · Docker · Proxmox · Bitbucket Pipelines
 
 <div class="page-break"></div>
 
@@ -100,32 +94,18 @@ systems are also omnipresent.
 | --- | --- |
 | CMA-CGM | From March 2023 to August 2023 |
 
-**CMA-CGM** is a global player in maritime, land, air and logistics solutions.
+Architecture design engagement on the **digitalization of a maritime booking platform** at one of the world's largest container logistics operators.
 
-During my mission at CMA-CGM as a solution architect, I was able to contribute
-to the development of the design around one of their flagship products: a
-digitalized booking solution.
+The role was design-phase focused — bridging business stakeholders and engineering teams through structured discovery and formal specification work:
 
-My contribution to this great project has allowed me to work on these different
-aspects:
+- Facilitated and led scoping workshops to extract, challenge and formalize business requirements into bounded system behaviors
+- Produced **High-Level Design** documents establishing service boundaries, data flows and integration contracts over an event-driven messaging backbone (**Kafka / Solace**)
+- Contributed to **Low-Level Design** specifications consumable directly by application architects and implementation teams
+- Operated in an AWS-hosted context with a C# service layer and MongoDB as primary data store
 
-- Collect, discuss and understand the different needs expressed by business
-  stakeholders regarding the expected functionalities of this platform.
-- Participate in and lead various scoping workshops around the development of
-  'High-Level' solutions allowing the creation of design models for application
-  architects and development teams.
-- Participate in the drafting of 'Low Level' design models to specify the
-  technical needs for the implementation of the chosen solution.
+*Stack:*
 
-*Context of the mission:*
-
-- Scoping Negotiation Solution Design
-- Engineering Design Technology
-- C#
-- AWS
-- Kafka
-- Solace
-- MongoDB
+- C# · AWS · Kafka · Solace · MongoDB
 
 <div class="page-break"></div>
 
@@ -135,31 +115,17 @@ aspects:
 | --- | --- |
 | TerraceMetrics | From September 2022 to April 2023 |
 
-Terrace Metrics (<https://www.terracemetrics.org/>) is a leading behavioral
-management company that is seen as a key asset for maximizing performance at
-both the individual and organizational levels.
+Platform stabilization and cloud migration engagement for a behavioral analytics SaaS serving schools and enterprises.
 
-The main users of TerraceMetrics are schools and companies concerned with
-solving the challenges associated with the study of behavioral science.
+- Diagnosed and resolved critical reliability issues on the production platform while delivering priority feature work in parallel
+- Designed and facilitated discovery workshops (event storming, impact mapping, example mapping, story mapping) to structure a **progressive AWS migration strategy**
+- Migrated workloads toward a **serverless architecture**: Lambda for service exposure, DynamoDB for hot-path storage, CloudFormation for infrastructure-as-code
+- Operated across the full stack: Node.js / TypeScript backend, PostgreSQL, React frontend, EC2, Docker
 
-During this mission, I was initially asked to contribute to the stabilization
-of the existing platform while implementing critical features for its users.
+*Stack:*
 
-Secondly, I was able to contribute to a strategic and progressive migration of
-the platform by proposing and facilitating various discovery workshops and
-relying on the AWS ecosystem to achieve this.
-
-*Context of the mission:*
-
-- event storming workshops, impact mapping, example mapping and story mapping Technologies:
-- AWS serverless ecosystem
-- AWS Lambda
-- AWS CloudFormation DynamoDB
-- NodeJs Javascript Typescript
-- AWS EC2
-- React
-- Docker
-- PostgreSQL
+- AWS Lambda · CloudFormation · DynamoDB · EC2 · Node.js · TypeScript · React ·
+  PostgreSQL · Docker
 
 <div class="page-break"></div>
 
@@ -169,30 +135,20 @@ relying on the AWS ecosystem to achieve this.
 | --- | --- |
 | Agicap | From December 2021 to August 2022 |
 
-Agicap is one of the largest European leaders in cash management.
+Greenfield development of a **payment product line** at one of Europe's leading
+cash management SaaS companies.
 
-During this mission, I contributed to the creation of the payment product line
-which allowed Agicap to increase their conversion rate by facilitating the
-payment process for its customers.
+- Built new payment flows end-to-end within a **Domain-Driven Design** model,
+  working from discovery (Event Storming, Example Mapping) through tactical
+  implementation (aggregates, domain events, bounded contexts)
+- Maintained a **zero-defect release cadence** sustained by BDD scenario
+  coverage and strict TDD discipline across the team
+- Practiced **mob programming** as the primary delivery mode, raising
+  collective ownership and design consistency across the team
 
-I have had the chance to work with multidisciplinary and very mature teams on
-topics such as Domain Driven Design and Test Driven Development. Thanks to
-these methodologies, Agicap has been able to continuously deliver a product in
-full evolution with a zero bug rate.
+*Stack:*
 
-*Context of the mission:*
-
-- Event Storming
-- Example Mapping
-- Story Mapping
-- TDD
-- DDD
-- BDD
-- Mob programming
-- dotnet 6-7
-- C#
-- EFCore
-- Angular
+- C# · .NET 6–7 · EF Core · Angular · TDD · DDD · BDD
 
 <div class="page-break"></div>
 
@@ -202,36 +158,21 @@ full evolution with a zero bug rate.
 | --- | --- |
 | CDiscount | From August 2020 to December 2021 |
 
-Cdiscount is one of the largest players in French e-commerce.
+Technical coaching engagement across multiple product teams building
+**Octopia**, a BtoB SaaS marketplace platform launched by Cdiscount.
 
-During this mission, I accompanied several product teams responsible for the
-launch of Octopia, a BtoB SaaS marketplace solution.My contribution has enabled
-the teams by gaining maturity on different aspects of product design,
-including:
+- Ran structured discovery workshops (Event Storming, Example Mapping, Impact
+  Mapping, Story Mapping) with business and engineering stakeholders to ground
+  design in explicit domain models
+- Provided hands-on technical guidance on tactical DDD (aggregates, domain
+  events, bounded contexts), Clean Architecture, and TDD at the team level — not
+  as theory but directly on delivery work
+- Designed and delivered multi-day training sessions on Clean Code, TDD, and
+  refactoring, with mob programming as the practical format
 
-- Construction of the vision and the pre-design phases through discovery
-  workshops such as event storming, example mapping, impact mapping and story
-  mapping with all stakeholders.
-- Real technical support for teams on their own delivery challenges, by
-  applying good development practices, a logical continuation of the previous
-  workshops (tactical DDD, BDD, TDD, Clean Code, Clean Architecture)
-- Training of teams when necessary, particularly on Clean Code, TDD,
-  refactoring and Clean Architecture topics. These trainings took place over
-  several days and included practical exercises with mob programming.
+*Stack:*
 
-*Context of the mission:*
-
-- Event Storming
-- Example Mapping
-- Story Mapping
-- Impact Mapping
-- TDD
-- DDD
-- BDD
-- Mob programming
-- dotnet 5-6
-- C#
-- EFCore
+- C# · .NET 5–6 · EF Core · TDD · DDD · BDD
 
 <div class="page-break"></div>
 
@@ -242,28 +183,24 @@ including:
 | Galaxy Semiconductor | From June 2015 to September 2018 |
 | Siemens PLM | From September 2018 to August 2020 |
 
-Siemens PLM is a key player in the digital transformation of companies,
-enabling them to benefit from such transformations and to reveal themselves in
-relation to competing players.
+Development and maintenance of **semiconductor test engineering tools** at
+Galaxy Semiconductor, later acquired by Siemens PLM (Mentor Graphics division).
 
-My mission at Siemens PLM took place more specifically within Galaxy
-Semiconductor and Mentor Graphics, a division of Siemens PLM. I have
-contributed to the maintenance and development of various products, in
-particular, a range of thick client type software for semiconductor test
-engineers. The purpose of these tools is to obtain on the one hand the best
-possible performance of the production lines of electronic components of all
-kinds (from the most basic micro-controller to the most advanced processors)
-while ensuring an optimal level of quality with regard to the standards in
-force (automotive, aerospace, etc.)
+The product suite targets yield optimization and quality assurance on
+electronic component production lines (microcontrollers to high-end processors)
+under automotive and aerospace standards:
 
-*Job context:*
+- Developed and maintained thick-client **C++ desktop applications** across
+  multiple standard revisions (C++03 → C++17) with MySQL / MariaDB as the data
+  backend
+- Contributed to a web-based companion platform (Node.js backend, VueJS
+  frontend) extending the tooling to browser-accessible workflows
+- Operated deployment infrastructure on Docker / DigitalOcean
 
-- Desktop applications using C++ (03/11/14/17)
-- DBMS MySQL and MariaDB
-- .Net Core platform product development
-- Web based application using several Javascript backend (nodeJS)
-- Frontend frameworks (VueJS)
-- Docker and DigitalOcean cloud platform
+*Stack:*
+
+- C++ (03/11/14/17) · MySQL · MariaDB · .NET Core · Node.js · VueJS · Docker ·
+DigitalOcean
 
 *Product links:*
 
@@ -279,18 +216,14 @@ force (automotive, aerospace, etc.)
 | --- | --- |
 | Atos Integration | From October 2012 to June 2015 |
 
-I work there as a designer of software solutions for end customers.
-The technical areas concerned are above all the use of Microsoft technologies
-based on the .Net Framework.
+Designed and delivered bespoke software solutions for enterprise customers on the **.NET Framework** stack (pre-.NET Core era).
 
-If necessary, I intervene from time to time with potential customers in order
-to audit or advise them with regard to an existing solution that they would
-like to develop.
+- Built web applications (ASP.NET / C#) and rich thick-client desktop applications (WPF, WinForms) across multiple customer engagements
+- Conducted technical audits of existing customer solutions and produced formal recommendations for evolution paths
 
-*Job context:*
+*Stack:*
 
-- Web (client/server) with ASP and C#
-- Thick client with C# (WPF and Winforms)
+- C# · .NET Framework · ASP.NET · WPF · WinForms
 
 <div class="page-break"></div>
 
@@ -300,19 +233,14 @@ like to develop.
 | --- | --- |
 | Isagri | From February 2011 to October 2012 |
 
-Publisher of software packages for agricultural professions and accounting.
+**.NET Framework** developer on a **livestock herd management** software package targeting agricultural professionals.
 
-In this company, I was a .Net development engineer.
+- Developed domain-specific features across a WPF thick-client frontend and a WCF service layer
+- Maintained and extended a legacy Delphi 7 codebase alongside the .NET stack
 
-The project I was working on was aimed at livestock farmers (herd management
-software package) and concerning all aspects related to this profession.
+*Stack:*
 
-*job context:*
-
-- Microsoft's dotnet framework
-- WPF
-- WCF
-- Delphi 7
+- C# · .NET Framework · WPF · WCF · Delphi 7
 
 <div class="page-break"></div>
 
@@ -322,33 +250,25 @@ software package) and concerning all aspects related to this profession.
 | --- | --- |
 | French Air Force | From April 2004 to February 2011 |
 
-My career in the air force as an IT specialist has given me a great deal of
-computer culture and the desire to learn more and more.
+7 years as an IT specialist across multiple postings, including **external
+theaters of operations**.
 
-I have held various positions there throughout my 7 years of service.
-
-*Mission context:*
-
-- Network administration with the commissioning, maintenance and evolution of an
-  entire infrastructure of Cisco and Enterasys switches on site and also in
-  external theaters of operations;
-- System administration on Linux and Windows
-  systems concerning services around the web, user management, DNS and
-  specialized services (security, meteorology...)
-- Development allowing the evolution and extension of existing software
-  solutions related to the security of network equipment within the Directorate
-  of Military Intelligence (DRM)
+- Commissioned, maintained and evolved a full **Cisco / Enterasys switching
+  infrastructure** on-site and in deployed field environments
+- Administered **Linux and Windows** systems covering web services, DNS, user
+  management, and classified specialized services (security, meteorology)
+- Developed software extensions for **network security equipment** within the
+  Directorate of Military Intelligence (DRM)
 
 ---
 
 <div class="page-break"></div>
 
-## Personal projects
+## Open-Source projects
 
 ### nifty
 
-> A comprehensive, **NFT implementation** featuring **crowdsale** mechanics,
-> **upgradeable architecture**, and extensive functionality built on Ethereum.
+#### A comprehensive, **NFT implementation** featuring **crowdsale** mechanics, **upgradeable architecture**, and extensive functionality built on Ethereum
 
 - Designed and implemented a full **ERC-721** NFT smart contract system in
   Solidity 0.8, including enumeration, metadata, burnable, and permit
@@ -375,13 +295,17 @@ I have held various positions there throughout my 7 years of service.
 - Implemented a swap-and-pop enumeration strategy for O(1) token removal from
   owner/global token arrays without external libraries
 
+*Stack:*
+
+- Foundry · Solidity · docker
+
 [Repository link](https://github.com/m374-crypt0/nifty)
 
 <div class="page-break"></div>
 
 ### dexterity
 
-> A decentralized exchange system inspired by **Uniswap V2**.
+#### A decentralized exchange system inspired by **Uniswap V2**
 
 - Built a **full-stack decentralized exchange** in Solidity 0.8.30 with an
   automated market maker (AMM) implementing the **constant product formula
@@ -410,6 +334,10 @@ I have held various positions there throughout my 7 years of service.
   **Sepolia testnet** deployment with Etherscan verification, and watch-mode
   development
 
+*Stack:*
+
+- Foundry · Solidity · docker · Yul
+
 [Repository link](https://github.com/m374-crypt0/dexterity)
 
 ---
@@ -426,10 +354,9 @@ I have held various positions there throughout my 7 years of service.
 
 ## Education
 
-### Bachelor in industrial IT
-
-> From 2001 to 2003
-> Lycée Pierre Méchain - Laon - France
+| Degree | School | Period |
+| --- | --- | --- |
+| Bachelor in Industrial IT | Lycée Pierre Méchain | 2001-2003 |
 
 ---
 
@@ -438,11 +365,12 @@ I have held various positions there throughout my 7 years of service.
 ### Blockchain
 
 Solidity - EVM - Foundry - Hardhat - OpenZeppelin - ZKP - Noir - Barretenberg -
-Viem
+Viem - Slither
 
 ### General IT
 
-Typescript/Javascript - Bun.js/NodeJs - C++ - Docker - CI/CD
+Typescript/Javascript - Bun.js/NodeJs - C++ - Docker - Github Actions -
+BitBucket pipelines
 
 ---
 
