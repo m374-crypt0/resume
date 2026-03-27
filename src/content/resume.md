@@ -88,8 +88,6 @@ Kamailio.
 
 - C++ · C · Python · SIP · RTP · OpenTelemetry · Docker · Proxmox · Bitbucket Pipelines
 
-<div class="page-break"></div>
-
 ### Solution Architect
 
 | Company | Period |
@@ -128,8 +126,6 @@ Platform stabilization and cloud migration engagement for a behavioral analytics
 
 - AWS Lambda · CloudFormation · DynamoDB · EC2 · Node.js · TypeScript · React ·
   PostgreSQL · Docker
-
-<div class="page-break"></div>
 
 ### Dotnet Senior Software Developer
 
@@ -176,8 +172,6 @@ Technical coaching engagement across multiple product teams building
 
 - C# · .NET 5–6 · EF Core · TDD · DDD · BDD
 
-<div class="page-break"></div>
-
 ### Backend Senior Software Developer
 
 | Company | Period |
@@ -185,8 +179,7 @@ Technical coaching engagement across multiple product teams building
 | Galaxy Semiconductor | From June 2015 to September 2018 |
 | Siemens PLM | From September 2018 to August 2020 |
 
-Development and maintenance of **semiconductor test engineering tools** at
-Galaxy Semiconductor, later acquired by Siemens PLM (Mentor Graphics division).
+Development and maintenance of **semiconductor test engineering tools**.
 
 The product suite targets yield optimization and quality assurance on
 electronic component production lines (microcontrollers to high-end processors)
@@ -206,9 +199,7 @@ DigitalOcean
 
 *Product links:*
 
-- [Pat-Man](https://www.galaxysemi.com/patman)
-- [Examinator-Pro](https://www.galaxysemi.com/examinatorpro)
-- [Yield-Man](https://www.galaxysemi.com/yieldman)
+- [Pat-Man](https://www.galaxysemi.com/patman) · [Examinator-Pro](https://www.galaxysemi.com/examinatorpro) · [Yield-Man](https://www.galaxysemi.com/yieldman)
 
 <div class="page-break"></div>
 
@@ -226,8 +217,6 @@ Designed and delivered bespoke software solutions for enterprise customers on th
 *Stack:*
 
 - C# · .NET Framework · ASP.NET · WPF · WinForms
-
-<div class="page-break"></div>
 
 ### dotnet Software Developer
 
