@@ -99,6 +99,8 @@ Greenfield development of a payment product line.
 
 *Stack: C# · .NET 6–7 · EF Core · Angular · TDD · DDD · BDD*
 
+<div class="page-break"></div>
+
 ### Dotnet C# Technical Coach
 
 | Company | Period |
@@ -132,6 +134,8 @@ Development and maintenance of semiconductor test engineering software.
 - Operated Docker / DigitalOcean deployment infrastructure
 
 *Stack: C++ · QT · MySQL · MariaDB · .NET Core · Node.js · VueJS · Docker*
+
+<div class="page-break"></div>
 
 ### Fullstack Software Engineer
 
@@ -207,6 +211,8 @@ Full-stack decentralized exchange inspired by Uniswap V2.
 [Repository](https://github.com/m374-crypt0/dexterity)
 
 ---
+
+<div class="page-break"></div>
 
 ## Technical Leadership
 

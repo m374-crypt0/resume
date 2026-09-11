@@ -19,6 +19,8 @@ build environments and production reliability**.
 
 ---
 
+<div class="page-break"></div>
+
 ## Experiences
 
 ### C++ Technical Lead
@@ -90,6 +92,8 @@ Platform stabilization and cloud migration engagement.
 
 *Stack: AWS Lambda · CloudFormation · DynamoDB · EC2 · Node.js · TypeScript · React · PostgreSQL · Docker*
 
+<div class="page-break"></div>
+
 ### Dotnet Senior Software Developer
 
 | Company | Period |
@@ -119,6 +123,8 @@ Technical coaching engagement across multiple product teams.
 - Used mob programming directly on production delivery work
 
 *Stack: C# · .NET 5–6 · EF Core · TDD · DDD · BDD*
+
+<div class="page-break"></div>
 
 ### Fullstack Software Engineer
 
@@ -197,6 +203,8 @@ Full-stack decentralized exchange inspired by Uniswap V2.
 
 ---
 
+<div class="page-break"></div>
+
 ## Education
 
 | Degree | School | Period |
@@ -224,6 +232,8 @@ C++03/11/14/17 · C# · .NET · Node.js · TypeScript · PostgreSQL · MySQL · 
 Solidity · EVM · Foundry · Noir · ZKP · Yul
 
 ---
+
+<div class="page-break"></div>
 
 ## Contact
 

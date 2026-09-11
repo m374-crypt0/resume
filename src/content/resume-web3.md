@@ -19,6 +19,8 @@ Web3 development.
 
 ---
 
+<div class="page-break"></div>
+
 ## Experiences
 
 ### Protocol Engineer
@@ -55,6 +57,8 @@ Working on a **zero-knowledge eligibility proof system** for Real-World Asset
 *Stack: Solidity · Foundry · Noir · Barretenberg · TypeScript · Hono · Docker · Anvil*
 
 [Repository](https://github.com/m374-crypt0/zk-assets)
+
+<div class="page-break"></div>
 
 ### C++ Technical Lead
 

@@ -79,7 +79,8 @@ with a current focus on privacy-preserving Real-World Asset protocols.
 
 I am currently exploring and building in Web3, combining my background
 in systems and software engineering with EVM, smart contracts and
-Zero-Knowledge technologies.
+Zero-Knowledge technologies. I'm also investigating on implementing quantum
+proof information transcoding frameworks.
 
 ## Choose a CV
 
