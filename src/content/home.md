@@ -1,6 +1,6 @@
 ---
 title: Senior Software Engineer
-name: Sébastien Lévy
+author: Sébastien Lévy
 location: France
 ---
 ---
