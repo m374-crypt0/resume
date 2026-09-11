@@ -1,11 +1,13 @@
 ---
-import HomeLayout from '../layouts/HomeLayout.astro'
+import Layout from '../layouts/Layout.astro'
 import Header from '../components/Header.astro'
 import CvCard from '../layouts/CvCard.astro'
+import TableOfContents from '../components/TableOfContents.astro'
 
 import * as home from '../content/home.md'
 
 const {title, author: name} = home.frontmatter
+const headings = home.getHeadings()
 const cvs = [
   {
     title: 'Senior C++ / Systems Engineer',
@@ -25,7 +27,8 @@ const cvs = [
 ];
 ---
 
-<HomeLayout {title}>
+<Layout {title}>
+  <TableOfContents {headings} />
   <Header {name} {title} />
   <div class="prose prose-lg max-w-4xl mx-auto px-6">
     <home.Content />
@@ -36,4 +39,4 @@ const cvs = [
       <CvCard {...cv} />
     ))}
   </section>
-</HomeLayout>
+</Layout>

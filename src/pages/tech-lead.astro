@@ -1,5 +1,5 @@
 ---
-import ResumeLayout from '../layouts/ResumeLayout.astro'
+import Layout from '../layouts/Layout.astro'
 import Header from '../components/Header.astro'
 import TableOfContents from '../components/TableOfContents.astro'
 
@@ -9,11 +9,11 @@ const {title, author: name} = resume.frontmatter
 const headings = resume.getHeadings()
 ---
 
-<ResumeLayout {title}>
+<Layout {title}>
   <TableOfContents {headings} />
   <Header {name} {title} />
   <div class="prose prose-lg max-w-4xl mx-auto px-6">
     <resume.Content />
   </div>
-</ResumeLayout>
+</Layout>
 
