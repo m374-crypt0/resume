@@ -3,28 +3,17 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import Header from '../components/Header.astro'
 import CvCard from '../components/CvCard.astro'
 import TableOfContents from '../components/TableOfContents.astro'
+import {resumes} from '../lib/resumes'
 
 import * as home from '../content/home.md'
 
 const {title, author: name} = home.frontmatter
 const headings = home.getHeadings()
-const cvs = [
-  {
-    title: 'Senior C++ / Systems Engineer',
-    description: 'C++ · Backend · Distributed Systems · Networking',
-    href: '/system',
-  },
-  {
-    title: 'Senior Technical Lead',
-    description: 'Hands-on · Coaching · Technical Leadership',
-    href: '/tech-lead',
-  },
-  {
-    title: 'Blockchain / Smart Contract Engineer',
-    description: 'EVM · Solidity · ZK · Foundry',
-    href: '/web3',
-  },
-];
+const cvs = resumes.map(({slug, resume}) => ({
+  title: resume.frontmatter.card.title,
+  description: resume.frontmatter.card.description,
+  href: `/${slug}`,
+}))
 ---
 
 <BaseLayout {title}>

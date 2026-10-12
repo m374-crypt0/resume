@@ -1,17 +1,13 @@
 ---
-import type {MarkdownInstance} from 'astro'
 import ResumeLayout from '../layouts/ResumeLayout.astro'
 import Header from '../components/Header.astro'
 import TableOfContents from '../components/TableOfContents.astro'
-
-type Resume = MarkdownInstance<{title: string, author: string}>
+import {resumes} from '../lib/resumes'
 
 // One page per src/content/resume-<slug>.md, served at /<slug>
 export function getStaticPaths() {
-  const resumes = import.meta.glob<Resume>('../content/resume-*.md', {eager: true})
-
-  return Object.entries(resumes).map(([path, resume]) => ({
-    params: {cv: path.match(/resume-(.+)\.md$/)![1]},
+  return resumes.map(({slug, resume}) => ({
+    params: {cv: slug},
     props: {resume},
   }))
 }
