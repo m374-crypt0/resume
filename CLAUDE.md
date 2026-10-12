@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Personal résumé site for Sébastien Lévy: one career-overview home page plus
+Personal résumé site for Sebastien Levy: one career-overview home page plus
 three role-targeted CVs, all designed to be read in the browser **and** printed
 to PDF from the browser.
 
@@ -194,10 +194,9 @@ Worth fixing when touching the relevant area:
 
 - **No sitemap.** `@astrojs/sitemap` would generate it from `site`, which is
   already set; it should list both languages.
-- **Author name is inconsistent**: `Sébastien Lévy` in `home.md`,
-  `Sebastien Levy` in the résumés, and it shows on the preview cards.
-- A stray untracked `~/` directory (an npm cache created by a misconfigured
-  `--cache` flag) sits at the repo root. Safe to delete; not gitignored.
+- `bun install` / `bun add` may create a stray `~/` directory at the repo root:
+  the author's `~/.npmrc` has `cache=~/.npm-cache`, and Bun does not expand
+  `~`. Safe to delete (`rm -rf -- './~'`, quoted); never commit it.
 
 ## Conventions
 

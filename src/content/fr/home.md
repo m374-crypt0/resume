@@ -1,12 +1,12 @@
 ---
 title: Ingénieur logiciel senior
-author: Sébastien Lévy
+author: Sebastien Levy
 description: 'Ingénieur logiciel senior, plus de 20 ans d''expérience en systèmes, backend, leadership technique et blockchain. Parcours et CV par métier.'
 location: France
 ---
 ---
 
-# Sébastien Lévy
+# Sebastien Levy
 
 ## Ingénieur logiciel senior
 
