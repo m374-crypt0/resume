@@ -1,5 +1,5 @@
 ---
-import HomeLayout from '../layouts/HomeLayout.astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
 import Header from '../components/Header.astro'
 import CvCard from '../components/CvCard.astro'
 import TableOfContents from '../components/TableOfContents.astro'
@@ -27,7 +27,7 @@ const cvs = [
 ];
 ---
 
-<HomeLayout {title}>
+<BaseLayout {title}>
   <TableOfContents {headings} />
   <Header {name} {title} />
   <div class="prose prose-lg max-w-4xl mx-auto px-6">
@@ -39,4 +39,4 @@ const cvs = [
       <CvCard {...cv} />
     ))}
   </section>
-</HomeLayout>
+</BaseLayout>

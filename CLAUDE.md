@@ -47,7 +47,7 @@ src/
   content/         markdown — the actual résumé text, the only thing that
                    changes often
   pages/           one .astro file per route, each ~11 lines of identical glue
-  layouts/         HomeLayout, ResumeLayout (html shell + theme + print button)
+  layouts/         BaseLayout (html shell + theme), ResumeLayout (+ print button)
   components/      Header, TableOfContents, CvCard
   styles/global.css  design tokens, prose overrides, print rules
   assets/          avatar
@@ -106,10 +106,10 @@ Follow the existing files closely; the styling assumes this shape.
 `prefers-color-scheme`) before first paint to avoid a flash; a second script
 at the end of `<body>` wires the toggle button.
 
-This whole block — head script, toggle button, toggle script — is **duplicated
-verbatim** between `HomeLayout.astro` and `ResumeLayout.astro`. Change one,
-change the other. The only real difference is that `ResumeLayout` additionally
-renders the "Export PDF" button.
+This whole block — head script, toggle button, toggle script — lives once in
+`BaseLayout.astro`. The home page uses `BaseLayout` directly; `ResumeLayout`
+wraps it and only adds the "Export PDF" button. The toggle script looks the
+button up by id, so it must stay after the button in `BaseLayout`.
 
 ## PDF export
 
