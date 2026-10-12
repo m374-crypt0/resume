@@ -99,6 +99,8 @@ Mission de conception d'architecture pour une plateforme de réservation maritim
 
 *Stack : C# · AWS · Kafka · Solace · MongoDB*
 
+<div class="page-break"></div>
+
 ### Architecte solution AWS
 
 | Entreprise | Période |
@@ -128,7 +130,7 @@ Développement from scratch d'une gamme de produits de paiement.
 
 *Stack : C# · .NET 6–7 · EF Core · Angular · TDD · DDD · BDD*
 
-### Coach technique .NET / C#
+### Coach technique .NET / C\#
 
 | Entreprise | Période |
 | --- | --- |
@@ -178,6 +180,8 @@ Développement .NET Framework pour un logiciel de gestion d'élevage.
 
 *Stack : C# · .NET Framework · WPF · WCF · Delphi 7*
 
+<div class="page-break"></div>
+
 ### Spécialiste informatique
 
 | Entreprise | Période |
@@ -192,6 +196,8 @@ Spécialiste informatique intervenant en réseau, systèmes et ingénierie logic
 - Développement logiciel pour des équipements de sécurité réseau
 
 ---
+
+<div class="page-break"></div>
 
 ## Projets Web3
 
@@ -238,6 +244,8 @@ architecture upgradeable.
 
 [Dépôt](https://github.com/m374-crypt0/nifty)
 
+<div class="page-break"></div>
+
 ### dexterity
 
 Exchange décentralisé full-stack inspiré d'**Uniswap V2**.
@@ -270,6 +278,8 @@ Exchange décentralisé full-stack inspiré d'**Uniswap V2**.
 
 ---
 
+<div class="page-break"></div>
+
 ## Compétences
 
 ### Smart Contracts
@@ -301,6 +311,8 @@ C++ · C · Python · Systèmes distribués · Linux · Réseaux
 | BTS Informatique industrielle | Lycée Pierre Méchain | 2001–2003 |
 
 ---
+
+<div class="page-break"></div>
 
 ## Contact
 

@@ -96,6 +96,8 @@ Architecture design engagement for a maritime booking platform.
 
 *Stack: C# · AWS · Kafka · Solace · MongoDB*
 
+<div class="page-break"></div>
+
 ### AWS Solution Architect
 
 | Company | Period |
@@ -175,6 +177,8 @@ Designed and delivered bespoke enterprise software.
 
 *Stack: C# · .NET Framework · WPF · WCF · Delphi 7*
 
+<div class="page-break"></div>
+
 ### IT Specialist
 
 | Company | Period |
@@ -189,6 +193,8 @@ IT specialist working across network, systems and software engineering.
 - Software development for network security equipment
 
 ---
+
+<div class="page-break"></div>
 
 ## Web3 Projects
 
@@ -232,6 +238,8 @@ upgradeable architecture.
 
 [Repository](https://github.com/m374-crypt0/nifty)
 
+<div class="page-break"></div>
+
 ### dexterity
 
 Full-stack decentralized exchange inspired by **Uniswap V2**.
@@ -265,6 +273,8 @@ Full-stack decentralized exchange inspired by **Uniswap V2**.
 
 ---
 
+<div class="page-break"></div>
+
 ## Skills
 
 ### Smart Contracts
@@ -296,6 +306,8 @@ C++ · C · Python · Distributed Systems · Linux · Networking
 | Bachelor in Industrial IT | Lycée Pierre Méchain | 2001–2003 |
 
 ---
+
+<div class="page-break"></div>
 
 ## Contact
 

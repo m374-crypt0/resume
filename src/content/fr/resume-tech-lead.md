@@ -33,6 +33,8 @@ vers la réalisation**.
 
 ---
 
+<div class="page-break"></div>
+
 ## Expériences
 
 ### Tech Lead C++
@@ -107,7 +109,7 @@ Développement from scratch d'une gamme de produits de paiement.
 
 <div class="page-break"></div>
 
-### Coach technique .NET / C#
+### Coach technique .NET / C\#
 
 | Entreprise | Période |
 | --- | --- |

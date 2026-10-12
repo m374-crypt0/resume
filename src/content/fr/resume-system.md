@@ -97,8 +97,6 @@ Mission de stabilisation de plateforme et de migration vers le cloud.
 
 *Stack : AWS Lambda · CloudFormation · DynamoDB · EC2 · Node.js · TypeScript · React · PostgreSQL · Docker*
 
-<div class="page-break"></div>
-
 ### Développeur .NET senior
 
 | Entreprise | Période |
@@ -114,7 +112,7 @@ Développement from scratch d'une **gamme de produits de paiement**.
 
 *Stack : C# · .NET 6–7 · EF Core · Angular · TDD · DDD · BDD*
 
-### Coach technique .NET / C#
+### Coach technique .NET / C\#
 
 | Entreprise | Période |
 | --- | --- |
@@ -128,8 +126,6 @@ Mission de coaching technique auprès de plusieurs équipes produit.
 - Mob programming directement sur des livraisons en production
 
 *Stack : C# · .NET 5–6 · EF Core · TDD · DDD · BDD*
-
-<div class="page-break"></div>
 
 ### Ingénieur logiciel fullstack
 
@@ -172,6 +168,8 @@ Sept ans comme spécialiste informatique en infrastructure, systèmes et ingéni
 - Développement d'extensions logicielles pour des équipements de sécurité réseau
 
 ---
+
+<div class="page-break"></div>
 
 ## Projets choisis
 

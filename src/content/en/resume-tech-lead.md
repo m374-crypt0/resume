@@ -31,6 +31,8 @@ but I remain fundamentally a **hands-on engineer and technical doer**.
 
 ---
 
+<div class="page-break"></div>
+
 ## Experiences
 
 ### C++ Technical Lead
