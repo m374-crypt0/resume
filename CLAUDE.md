@@ -34,7 +34,9 @@ Iterate locally with `bun run dev`, then push to `main` when the result looks
 right. A **Netlify GitHub app** is installed on `m374-crypt0/resume` and
 deploys from `main` automatically — there is no CI workflow and no
 `netlify.toml`; Netlify auto-detects Astro (`astro build` → `dist/`) and picks
-up Bun from `bun.lock`.
+up Bun from `bun.lock`. The live site is
+<https://sebastien-levy-resume.netlify.app>, which is also `site` in
+`astro.config.mjs` — update both if a custom domain is added.
 
 Consequence: **a push to `main` is a publish.** Treat it as the deploy step.
 Verify print/PDF output locally before pushing, since that is the part Netlify
@@ -142,10 +144,10 @@ Verify layout changes by actually printing to PDF, not just by reading the DOM.
 
 Worth fixing when touching the relevant area:
 
-- **No `site` in `astro.config.mjs`** — blocks canonical URLs, sitemap, and
-  Open Graph absolute URLs. Set it to the Netlify URL once that is fixed.
-- **No meta description / Open Graph tags** on any page, despite this being a
-  site meant to be shared with recruiters.
+- **No meta description / Open Graph tags, canonical URL or sitemap** on any
+  page, despite this being a site meant to be shared with recruiters. `site`
+  is set in `astro.config.mjs`, so absolute URLs can be built from
+  `Astro.site`.
 - A stray untracked `~/` directory (an npm cache created by a misconfigured
   `--cache` flag) sits at the repo root. Safe to delete; not gitignored.
 
