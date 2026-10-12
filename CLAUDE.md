@@ -48,8 +48,7 @@ src/
                    changes often
   pages/           one .astro file per route, each ~11 lines of identical glue
   layouts/         HomeLayout, ResumeLayout (html shell + theme + print button)
-                   CvCard (misfiled: it is a component, not a layout)
-  components/      Header, TableOfContents
+  components/      Header, TableOfContents, CvCard
   styles/global.css  design tokens, prose overrides, print rules
   assets/          avatar
 ```
@@ -130,12 +129,6 @@ Verify layout changes by actually printing to PDF, not just by reading the DOM.
 
 Worth fixing when touching the relevant area:
 
-- **`CvCard.astro` emits a full `<html><body>` wrapper** and is rendered three
-  times inside `HomeLayout`'s body. `dist/index.html` therefore contains four
-  `<html>` and four `<body>` tags. Browsers recover, but it is invalid HTML and
-  bad for SEO/crawlers. It should be a plain component under `src/components/`
-  returning just the `<a>`, without re-importing `global.css` and without its
-  unused `<slot />`.
 - **No `site` in `astro.config.mjs`** — blocks canonical URLs, sitemap, and
   Open Graph absolute URLs. Set it to the Netlify URL once that is fixed.
 - **No meta description / Open Graph tags** on any page, despite this being a
