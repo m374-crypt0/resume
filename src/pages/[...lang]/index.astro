@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import Header from '../../components/Header.astro'
+import CvCard from '../../components/CvCard.astro'
+import TableOfContents from '../../components/TableOfContents.astro'
+import {homes, resumes} from '../../lib/content'
+import {langs, localizePath, routeLang} from '../../lib/i18n'
+
+// One home page per language: / and /fr/
+export function getStaticPaths() {
+  return langs.map((lang) => ({
+    params: {lang: routeLang(lang)},
+    props: {lang},
+  }))
+}
+
+const {lang} = Astro.props
+const home = homes[lang]
+const {title, author: name} = home.frontmatter
+const headings = home.getHeadings()
+const cvs = resumes
+  .filter((cv) => cv.lang === lang)
+  .map(({slug, resume}) => ({
+    title: resume.frontmatter.card.title,
+    description: resume.frontmatter.card.description,
+    href: localizePath(lang, `/${slug}`),
+  }))
+---
+
+<BaseLayout {title} {lang}>
+  <TableOfContents {headings} {lang} />
+  <Header {name} {title} />
+  <div class="prose prose-lg max-w-4xl mx-auto px-6">
+    <home.Content />
+  </div>
+
+  <section>
+    {cvs.map((cv) => (
+      <CvCard {...cv} {lang} />
+    ))}
+  </section>
+</BaseLayout>

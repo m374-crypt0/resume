@@ -1,0 +1,27 @@
+---
+import ResumeLayout from '../../layouts/ResumeLayout.astro'
+import Header from '../../components/Header.astro'
+import TableOfContents from '../../components/TableOfContents.astro'
+import {resumes} from '../../lib/content'
+import {routeLang} from '../../lib/i18n'
+
+// One page per src/content/<lang>/resume-<slug>.md: /<slug> and /fr/<slug>
+export function getStaticPaths() {
+  return resumes.map(({lang, slug, resume}) => ({
+    params: {lang: routeLang(lang), cv: slug},
+    props: {lang, resume},
+  }))
+}
+
+const {lang, resume} = Astro.props
+const {title, author: name} = resume.frontmatter
+const headings = resume.getHeadings()
+---
+
+<ResumeLayout {title} {lang}>
+  <TableOfContents {headings} {lang} />
+  <Header {name} {title} />
+  <div class="prose prose-lg max-w-4xl mx-auto px-6">
+    <resume.Content />
+  </div>
+</ResumeLayout>

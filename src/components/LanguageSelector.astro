@@ -1,0 +1,133 @@
+---
+import Flag from './Flag.astro'
+import {languages, langs, localizePath, ui, type Lang} from '../lib/i18n'
+
+type Props = {
+  lang: Lang,
+  path: string
+}
+
+// path is language-neutral (/web3); each option links to that page in its language
+const {lang, path} = Astro.props
+---
+
+<details id="lang-selector" class="lang no-print">
+  <summary class="lang-trigger" aria-label={ui[lang].language}>
+    <Flag code={languages[lang].flag} />
+    <span>{lang.toUpperCase()}</span>
+    <svg class="lang-chevron" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </summary>
+
+  <ul class="lang-menu">
+    {langs.map((option) => (
+      <li>
+        <a
+          href={localizePath(option, path)}
+          hreflang={option}
+          lang={option}
+          aria-current={option === lang ? 'page' : undefined}
+          class="lang-option"
+        >
+          <Flag code={languages[option].flag} />
+          {languages[option].name}
+        </a>
+      </li>
+    ))}
+  </ul>
+</details>
+
+<script is:inline>
+  // Close the menu on outside click or Escape, like a native select
+  const langSelector = document.getElementById('lang-selector')
+
+  document.addEventListener('click', (event) => {
+    if (!langSelector.contains(event.target)) langSelector.open = false
+  })
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') langSelector.open = false
+  })
+</script>
+
+<style>
+  /* sits just left of the theme toggle (right: 1.5rem, width: 2.5rem) */
+  .lang {
+    position: fixed;
+    top: 1.5rem;
+    right: 4.5rem;
+    z-index: 100;
+  }
+
+  .lang-trigger {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0 0.75rem;
+    border-radius: 9999px;
+    background-color: var(--color-border);
+    color: var(--color-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    opacity: 0.6;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    transition: opacity 0.15s;
+  }
+
+  .lang-trigger::-webkit-details-marker {
+    display: none;
+  }
+
+  .lang-trigger:hover,
+  .lang[open] .lang-trigger {
+    opacity: 1;
+  }
+
+  .lang-chevron {
+    transition: transform 0.15s;
+  }
+
+  .lang[open] .lang-chevron {
+    transform: rotate(180deg);
+  }
+
+  .lang-menu {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    min-width: 9rem;
+    margin: 0;
+    padding: 0.35rem 0;
+    list-style: none;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .lang-option {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+    color: var(--color-body);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.1s;
+  }
+
+  .lang-option:hover {
+    color: var(--color-h3);
+  }
+
+  .lang-option[aria-current] {
+    font-weight: 600;
+    color: var(--color-strong);
+  }
+</style>
