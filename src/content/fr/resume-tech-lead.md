@@ -1,6 +1,7 @@
 ---
 title: 'Tech Lead senior — Ingénieur logiciel hands-on'
 author: 'Sebastien Levy'
+description: 'Tech Lead hands-on, plus de 20 ans d''expérience : mentorat, coaching, DDD, TDD, architecture et ingénierie backend C++ / .NET.'
 card:
   title: 'Tech Lead senior'
   description: 'Hands-on · Coaching · Leadership technique'

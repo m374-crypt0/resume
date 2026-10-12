@@ -1,6 +1,7 @@
 ---
 title: 'Blockchain / Smart Contract Engineer — EVM / ZK'
 author: 'Sebastien Levy'
+description: 'Blockchain engineer focused on EVM smart contracts and Zero-Knowledge systems — Solidity, Foundry, Noir — backed by 20+ years of software engineering.'
 card:
   title: 'Blockchain / Smart Contract Engineer'
   description: 'EVM · Solidity · ZK · Foundry'

@@ -1,6 +1,7 @@
 ---
 title: 'Senior Software Engineer — C++ / Systems / Backend'
 author: 'Sebastien Levy'
+description: 'Senior C++ / systems engineer with 20+ years building production software: C++, backend, networking, distributed systems and observability.'
 card:
   title: 'Senior C++ / Systems Engineer'
   description: 'C++ · Backend · Distributed Systems · Networking'

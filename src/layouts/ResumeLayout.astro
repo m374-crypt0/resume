@@ -4,13 +4,15 @@ import {ui, type Lang} from '../lib/i18n'
 
 type Props = {
   title: string,
+  name: string,
+  description: string,
   lang: Lang
 }
 
-const {title, lang} = Astro.props
+const {title, name, description, lang} = Astro.props
 ---
 
-<BaseLayout {title} {lang}>
+<BaseLayout {title} {name} {description} {lang}>
   <slot />
 
   <button

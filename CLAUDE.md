@@ -10,6 +10,8 @@ to PDF from the browser.
 - **Tailwind CSS 4** via `@tailwindcss/vite` (no `tailwind.config.js` — config
   lives in `src/styles/global.css` using `@import` / `@plugin`)
 - **@tailwindcss/typography** — all markdown renders inside `.prose`
+- **satori + sharp + @fontsource/inter** — render the link-preview PNGs at
+  build time (see SEO and link previews below)
 - **Bun** is the package manager (`bun.lock`); Node >= 22.12
 - No tests, no linter, no formatter
 
@@ -49,6 +51,7 @@ src/
   content/<lang>/  markdown — the actual résumé text, the only thing that
                    changes often; one folder per language (en, fr)
   pages/[...lang]/ index.astro (home) and [cv].astro (every résumé)
+  pages/og/        [lang]/[page].png.ts — link-preview card per page
   layouts/         BaseLayout (html shell + theme + language selector),
                    ResumeLayout (+ print button)
   components/      Header, TableOfContents, CvCard, LanguageSelector, Flag
@@ -83,6 +86,23 @@ The `[...lang]` rest parameter is `undefined` for English (`routeLang()` in
 - **SEO** — `BaseLayout` emits `<html lang>` and `hreflang` alternates
   (absolute, built from `site`) for every language plus `x-default` → English.
 
+## SEO and link previews
+
+`BaseLayout` emits, from each page's frontmatter: `<title>` as
+`<author> | <title>` (also the default file name of the exported PDF), meta
+description, canonical URL, Open Graph tags (`og:locale` from `languages` in
+`src/lib/i18n.ts`) and `twitter:card`.
+
+`og:image` points to `/og/<lang>/<page>.png` (`home` for the home page, the
+slug otherwise), generated at build time by `src/pages/og/[lang]/[page].png.ts`:
+satori lays out name + title as vector paths with the bundled Inter font (the
+build machine needs no system fonts), sharp rasterizes to 1200×630. A title
+of the form `Role — Specialty` is split onto two lines. Verify the cards by
+opening `dist/og/**/*.png` after a build.
+
+LinkedIn caches previews for about a week; use its Post Inspector to refresh
+after a change.
+
 Adding a language: an entry in `languages` and `ui` in `src/lib/i18n.ts`, a
 flag in `Flag.astro`, and a full `src/content/<lang>/` folder.
 
@@ -102,7 +122,8 @@ const headings = resume.getHeadings()
 ```
 
 Frontmatter schema is informal: `title` (the role headline shown under the
-name), `author` (the name), and on `home.md` also `location`. Résumés also
+name), `author` (the name), `description` (meta / Open Graph description,
+keep it under ~160 characters), and on `home.md` also `location`. Résumés also
 carry the home-page card:
 
 ```yaml
@@ -119,10 +140,11 @@ in `order` silently scrambles the card order.
 
 ### Adding a new CV
 
-Add `src/content/<lang>/resume-<slug>.md` with `title`, `author` and `card`
-frontmatter, **in every language**. That alone publishes it at `/<slug>` (and
-`/fr/<slug>`) and adds its card to that language's home page — so does any
-`resume-*.md` file, drafts included; name a draft differently until it is
+Add `src/content/<lang>/resume-<slug>.md` with `title`, `author`,
+`description` and `card` frontmatter, **in every language**. That alone
+publishes it at `/<slug>` (and `/fr/<slug>`), generates its preview card and
+adds it to that language's home page — so does any `resume-*.md` file, drafts
+included; name a draft differently until it is
 ready.
 
 ## Markdown conventions
@@ -170,10 +192,10 @@ Verify layout changes by actually printing to PDF, not just by reading the DOM.
 
 Worth fixing when touching the relevant area:
 
-- **No meta description / Open Graph tags, canonical URL or sitemap** on any
-  page, despite this being a site meant to be shared with recruiters. `site`
-  is set in `astro.config.mjs`, so absolute URLs can be built from
-  `Astro.site`.
+- **No sitemap.** `@astrojs/sitemap` would generate it from `site`, which is
+  already set; it should list both languages.
+- **Author name is inconsistent**: `Sébastien Lévy` in `home.md`,
+  `Sebastien Levy` in the résumés, and it shows on the preview cards.
 - A stray untracked `~/` directory (an npm cache created by a misconfigured
   `--cache` flag) sits at the repo root. Safe to delete; not gitignored.
 

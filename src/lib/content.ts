@@ -4,12 +4,14 @@ import type {Lang} from './i18n'
 export type Home = MarkdownInstance<{
   title: string,
   author: string,
+  description: string,
   location: string,
 }>
 
 export type Resume = MarkdownInstance<{
   title: string,
   author: string,
+  description: string,
   card: {
     title: string,
     description: string,

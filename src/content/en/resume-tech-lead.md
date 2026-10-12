@@ -1,6 +1,7 @@
 ---
 title: 'Senior Technical Lead — Hands-on Software Engineer'
 author: 'Sebastien Levy'
+description: 'Hands-on technical lead with 20+ years of experience: mentoring, coaching, DDD, TDD, architecture and C++ / .NET backend engineering.'
 card:
   title: 'Senior Technical Lead'
   description: 'Hands-on · Coaching · Technical Leadership'

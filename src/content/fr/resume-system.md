@@ -1,6 +1,7 @@
 ---
 title: 'Ingénieur logiciel senior — C++ / Systèmes / Backend'
 author: 'Sebastien Levy'
+description: 'Ingénieur C++ / systèmes senior, plus de 20 ans de logiciels en production : C++, backend, réseaux, systèmes distribués et observabilité.'
 card:
   title: 'Ingénieur C++ / Systèmes senior'
   description: 'C++ · Backend · Systèmes distribués · Réseaux'

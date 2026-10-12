@@ -1,6 +1,6 @@
 export const languages = {
-  en: {name: 'English', flag: 'us'},
-  fr: {name: 'Français', flag: 'fr'},
+  en: {name: 'English', flag: 'us', locale: 'en_US'},
+  fr: {name: 'Français', flag: 'fr', locale: 'fr_FR'},
 } as const
 
 export type Lang = keyof typeof languages

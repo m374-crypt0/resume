@@ -16,7 +16,7 @@ export function getStaticPaths() {
 
 const {lang} = Astro.props
 const home = homes[lang]
-const {title, author: name} = home.frontmatter
+const {title, author: name, description} = home.frontmatter
 const headings = home.getHeadings()
 const cvs = resumes
   .filter((cv) => cv.lang === lang)
@@ -27,7 +27,7 @@ const cvs = resumes
   }))
 ---
 
-<BaseLayout {title} {lang}>
+<BaseLayout {title} {name} {description} {lang}>
   <TableOfContents {headings} {lang} />
   <Header {name} {title} />
   <div class="prose prose-lg max-w-4xl mx-auto px-6">

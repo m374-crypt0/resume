@@ -1,6 +1,7 @@
 ---
 title: Senior Software Engineer
 author: Sébastien Lévy
+description: 'Senior software engineer with 20+ years across systems, backend engineering, technical leadership and blockchain. Career overview and role-specific CVs.'
 location: France
 ---
 ---

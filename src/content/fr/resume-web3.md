@@ -1,6 +1,7 @@
 ---
 title: 'Ingénieur Blockchain / Smart Contracts — EVM / ZK'
 author: 'Sebastien Levy'
+description: 'Ingénieur blockchain spécialisé en smart contracts EVM et systèmes Zero-Knowledge — Solidity, Foundry, Noir — fort de plus de 20 ans d''ingénierie logicielle.'
 card:
   title: 'Ingénieur Blockchain / Smart Contracts'
   description: 'EVM · Solidity · ZK · Foundry'

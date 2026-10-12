@@ -14,11 +14,11 @@ export function getStaticPaths() {
 }
 
 const {lang, resume} = Astro.props
-const {title, author: name} = resume.frontmatter
+const {title, author: name, description} = resume.frontmatter
 const headings = resume.getHeadings()
 ---
 
-<ResumeLayout {title} {lang}>
+<ResumeLayout {title} {name} {description} {lang}>
   <TableOfContents {headings} {lang} />
   <Header {name} {title} />
   <div class="prose prose-lg max-w-4xl mx-auto px-6">
